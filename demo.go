@@ -1,5 +1,5 @@
 // Package plugindemo a demo plugin.
-package plugindemo
+package hellotest2
 
 import (
 	"bytes"
