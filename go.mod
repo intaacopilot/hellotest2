@@ -1,3 +1,3 @@
-module github.com/traefik/plugindemo
+module github.com/intaacopilot/hellotest2
 
 go 1.19
