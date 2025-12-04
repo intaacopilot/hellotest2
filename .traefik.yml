@@ -1,12 +1,8 @@
 displayName: Demo Plugin
 type: middleware
-iconPath: .assets/icon.png
-
 import: github.com/intaacopilot/hellotest2
-
-summary: '[Demo] Add Request Header'
-
+summary: 'blocking ip'
 testData:
-  Headers:
-    X-Demo: test
-    X-URL: '{{URL}}'
+    ipDenyList:
+    - "10.0.0.0/8"
+    - "192.168.0.0/16"
